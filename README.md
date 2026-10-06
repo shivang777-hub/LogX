@@ -1,1 +1,1 @@
-# Smartsearch
+# LogX : Intelligent logs analyzer
