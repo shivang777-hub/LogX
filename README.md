@@ -1,13 +1,14 @@
-LogX - Search and Ordering (Hitarth)
+LogX - Storage and Access (Shivang-Storage-and-access)
 
-Modules: LogSorter, TimeSearch, KeywordIndex, TopKHeap
-Shared struct: include/LogEntry.h
+Module: FolderTraversal
+Shared purpose: Recursively traverse folders and find log files
 
-Build and run the console test:
-  mkdir build
-  cd build
-  cmake ..
-  cmake --build .
-  ./main_test
+Files:
+    include/FolderTraversal.h
+    src/FolderTraversal.cpp
 
-To add to the Qt project, add the SEARCH_SOURCES files from CMakeLists.txt and the include folder.
+Features:
+    - Recursive directory traversal
+    - Detects .log and .txt files
+    - Handles nested folders
+    - Checks whether the folder path is valid
