@@ -1,1 +1,0 @@
-# LogX : Intelligent logs analyzer
